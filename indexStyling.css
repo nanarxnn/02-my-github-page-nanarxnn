@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    height: 100%;
+    min-height: 100vh;
     margin: 0;
     padding: 20px;
 
@@ -34,4 +34,24 @@ header {
     display: flex;
     align-items: center;
     color: white;
+}
+
+/* === | HERO SECTION: Picture for Display | === */
+.hero-section {
+    height:500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000;
+}
+
+#hero-pic {
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    opacity: 0.75;
+    object-fit: cover;
+
+    -webkit-box-reflect: below 0px
+    linear-gradient(to bottom, transparent, rgba(0,0,0,0.5));
 }
