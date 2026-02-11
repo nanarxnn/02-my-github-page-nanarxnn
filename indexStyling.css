@@ -10,8 +10,7 @@ body {
     margin: 0;
     padding: 20px;
 
-    background: #554cc7;
-    background-clip: cover;
+    background: linear-gradient(135deg, #667eea 0%, #554cc7 50%, #1a1a2e 100%);
     background-attachment: fixed;
 }
 
@@ -81,6 +80,12 @@ header {
     margin: 10px 0;
 }
 
+.content-section {
+    min-height: 500px;
+    border-radius: 20px;
+    gap: 50px;
+}
+
 .line-break {
     height: 10px;
     flex-grow: 1;
@@ -99,15 +104,7 @@ header {
 
 /* == | AUTOBIOGRAPHY SECTION | == */
 .bio-section {
-    min-height: 500px;
     background-color: #3d3699;
-    padding: 30px;
-    border-radius: 20px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
 }
 
 #featured-photo {
@@ -161,4 +158,43 @@ header {
 .bio-sub-section a:hover {
     color: #a29bfe;
     border-bottom: 1px solid #a29bfe;
+}
+
+/* === | SKILL DETAILS SECTION === */
+.skill-section {
+    flex-direction: row;
+    min-height: 200px;
+    color:white;
+    gap: 10px;
+}
+
+.skill-sub-section {
+    flex: 1;
+    width: 0;
+    min-height: 200px;
+
+    border-color: 2px solid #554cc7;
+    background-color: #453f98;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+    border-radius: 15px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.skill-sub-section h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.skill-sub-section p {
+    font-size: 18px;
+    margin: 5px 0;
+    opacity: 0.8;
 }
