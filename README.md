@@ -16,6 +16,8 @@ KEY TAKEAWAYS FROM THIS EXERCISE
 [1] Designing a Site needs a lot of creative juices </3
 
 REFERENCES
+[1] HTML: https://www.w3schools.com/html/
+[2] CSS: https://www.w3schools.com/css/
 
 SOURCES:
 [1] galaxy.jpg: https://ph.pinterest.com/pin/46232333733855232/
