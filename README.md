@@ -2,7 +2,7 @@
 
 NAME: CAABAY, Alyanna Rigel O.
 DEGREE PROGRAM: BS Computer Science
-LIVE WEBSITE LINK: <LINK>
+LIVE WEBSITE LINK: https://nanarxnn.github.io/02-my-github-page-nanarxnn/
 
 STEPS ON HOW TO CREATE A GITHUB PAGE
 [1] Create a Public Repository
