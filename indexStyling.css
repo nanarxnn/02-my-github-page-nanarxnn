@@ -28,6 +28,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
 }
 
 .header-left {
@@ -100,15 +101,64 @@ header {
 .bio-section {
     min-height: 500px;
     background-color: #3d3699;
+    padding: 30px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 
 #featured-photo {
     border-radius: 15px;
     height: 350px;
     width: 350px;
+    object-fit: cover;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
 }
 
-.bio-sub-section {
-    margin: 5px 20px;
-    padding: 10px;
+.bio-sub-section{
+    color:white;
+    max-width: 800px;
+}
+
+.bio-sub-section h1 {
+    font-size: 48px;
+    margin-bottom: 0px;
+    letter-spacing: -1px;
+}
+
+.bio-sub-section h2 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #cbd5e0;
+    margin-top: 0;
+}
+
+.bio-sub-section h3 {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.bio-sub-section p {
+    font-size: 16px;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bio-sub-section a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.bio-sub-section a:hover {
+    color: #a29bfe;
+    border-bottom: 1px solid #a29bfe;
 }
